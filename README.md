@@ -12,5 +12,4 @@ If you find these notes helpful, feel free to follow me on my social media platf
 
 ## Credits
 
-These handwritten notes are created by me. If you're using these notes for your preparation or anywhere else, please give proper credits to me.
-
+These handwritten notes are written by me. If you're using these notes and resources for your preparation or anywhere else, please give proper credits to me.
