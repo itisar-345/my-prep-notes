@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Search, FileText, BookOpen, X } from "lucide-react";
+import { Search, FileText, BookOpen, X, Code2, MessageSquare } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -83,8 +83,12 @@ export function SearchDialog({ isOpen, onClose, onSelectPdf }: SearchDialogProps
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-secondary text-accent">
                     {result.type === "fundamental" ? (
                       <FileText className="h-5 w-5" />
-                    ) : (
+                    ) : result.type === "system-design" ? (
                       <BookOpen className="h-5 w-5" />
+                    ) : result.type === "coding" ? (
+                      <Code2 className="h-5 w-5" />
+                    ) : (
+                      <MessageSquare className="h-5 w-5" />
                     )}
                   </div>
                   <div className="flex-1 min-w-0">
@@ -92,7 +96,13 @@ export function SearchDialog({ isOpen, onClose, onSelectPdf }: SearchDialogProps
                       {result.title}
                     </h4>
                     <p className="text-sm text-muted-foreground truncate">
-                      {result.type === "fundamental" ? "Computer Fundamentals" : "System Design"} • {result.description}
+                      {result.type === "fundamental" 
+                        ? "Computer Fundamentals" 
+                        : result.type === "system-design" 
+                          ? "System Design" 
+                          : result.type === "coding" 
+                            ? "Coding Practice" 
+                            : "Interview Prep"} • {result.description}
                     </p>
                   </div>
                 </button>

@@ -81,8 +81,7 @@ export default function CodingResources() {
               </h3>
             </div>
             <p className="text-muted-foreground">
-              Arrays, Strings, Linked Lists, Trees, Graphs, Dynamic Programming, 
-              Binary Search, Two Pointers, Sliding Window, Stack & Queue.
+              Arrays, Strings, Binary Search, Two Pointers, Sliding Window, Linked Lists, Stack & Queue, Trees, Graphs, Dynamic Programming. 
             </p>
           </div>
         </div>

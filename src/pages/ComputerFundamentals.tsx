@@ -84,9 +84,7 @@ export default function ComputerFundamentals() {
             </h3>
           </div>
           <p className="text-muted-foreground">
-            Start with Operating Systems and DBMS for most interviews. OOPs concepts 
-            are crucial for Java-based companies. Networks and Cloud are often asked 
-            in system design rounds.
+            Start with OS and DBMS for core interviews, focus on OOPs for Java roles, prepare Networks and Cloud for system design, and cover SDLC and DevOps to understand end-to-end software development and deployment.
           </p>
         </div>
       </div>

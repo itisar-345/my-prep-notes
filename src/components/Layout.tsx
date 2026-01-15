@@ -131,12 +131,12 @@ export function Layout({ children }: LayoutProps) {
       {/* Footer */}
       <footer className="border-t border-border mt-20">
         <div className="container py-8 text-center text-sm text-muted-foreground">
-          <p>Handwritten notes for placement preparation.</p>
+          <p>These handwritten notes are written by me. If you're using these notes and resources for your preparation or anywhere else, please give proper credits to me.</p>
           <a 
             href="https://github.com/itisar-345" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="mt-3 inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+            className="mt-4 inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
           >
             <Github className="h-5 w-5" />
             <span>Connect on GitHub</span>

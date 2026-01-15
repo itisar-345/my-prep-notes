@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { subjects, systemDesignResources } from "@/data/subjects";
+import { subjects, systemDesignResources, codingResources, interviewResources } from "@/data/subjects";
 
 export interface SearchResult {
   id: string;
@@ -7,7 +7,7 @@ export interface SearchResult {
   description: string;
   fileName?: string;
   url?: string;
-  type: "fundamental" | "system-design";
+  type: "fundamental" | "system-design" | "coding" | "interview";
   resourceType: "pdf" | "link";
 }
 
@@ -38,6 +38,31 @@ export function useSearch() {
         fileName: resource.fileName,
         url: resource.url,
         type: "system-design",
+        resourceType: resource.type,
+      });
+    });
+
+    // Add all coding resources
+    codingResources.forEach((resource) => {
+      items.push({
+        id: resource.id,
+        title: resource.title,
+        description: resource.description,
+        url: resource.url,
+        type: "coding",
+        resourceType: "link",
+      });
+    });
+
+    // Add all interview resources
+    interviewResources.forEach((resource) => {
+      items.push({
+        id: resource.id,
+        title: resource.title,
+        description: resource.description,
+        fileName: resource.fileName,
+        url: resource.url,
+        type: "interview",
         resourceType: resource.type,
       });
     });
