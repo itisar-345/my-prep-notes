@@ -35,7 +35,7 @@ export const subjects: SubjectPdf[] = [
     shortName: "OOPs",
     description: "Java-focused OOP concepts in depth",
     icon: Coffee,
-    fileName: "object oriented programming.pdf",
+    fileName: "object oriented programing.pdf",
     color: "from-orange-500/10 to-orange-600/5",
   },
   {
@@ -44,7 +44,7 @@ export const subjects: SubjectPdf[] = [
     shortName: "CN",
     description: "OSI model, TCP/IP, protocols, and security",
     icon: Globe,
-    fileName: "computer network.pdf",
+    fileName: "computer networks.pdf",
     color: "from-purple-500/10 to-purple-600/5",
   },
   {
