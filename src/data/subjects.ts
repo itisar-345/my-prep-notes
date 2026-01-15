@@ -99,7 +99,7 @@ export const systemDesignResources: SystemDesignResource[] = [
     id: "sd-examples-playlist",
     title: "System Design Playlist",
     description: "Video explanations of real-world system designs",
-    url: "https://www.youtube.com/playlist?list=PLd_WlMSX7P1WFePSwmslYYqa2GGIDYTuL&si=5rmnv2VV-Kpfqdrm",
+    url: "https://www.youtube.com/playlist?list=PLd_WlMSX7P1WFePSwmslYYqa2GGIDYTuL",
     type: "link",
     category: "examples",
   },
@@ -179,7 +179,7 @@ export const interviewResources: InterviewResource[] = [
     id: "interview-playlist",
     title: "Interview Prep Playlist",
     description: "Curated YouTube playlist for interview preparation",
-    url: "youtube.com/playlist?list=PLd_WlMSX7P1USfcEfkR649GF1AMx5pMjt&si=1DSH5J0h295QDjmj",
+    url: "https://www.youtube.com/playlist?list=PLd_WlMSX7P1USfcEfkR649GF1AMx5pMjt",
     type: "link",
   },
 ];
