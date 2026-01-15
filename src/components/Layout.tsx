@@ -39,7 +39,7 @@ export function Layout({ children }: LayoutProps) {
             className="flex items-center gap-2.5 font-display text-xl font-semibold text-foreground transition-colors hover:text-accent"
           >
             <PenLine className="h-6 w-6 text-accent" />
-            <span>My Notes</span>
+            <span>My Prep Notes</span>
           </Link>
 
           {/* Desktop Navigation */}
