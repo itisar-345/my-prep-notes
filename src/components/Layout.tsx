@@ -132,6 +132,7 @@ export function Layout({ children }: LayoutProps) {
       <footer className="border-t border-border mt-20">
         <div className="container py-8 text-center text-sm text-muted-foreground">
           <p>These handwritten notes are written by me. If you're using these notes and resources for your preparation or anywhere else, please give proper credits to me.</p>
+          <p>Made with 💌 -Ritisa</p>
           <a 
             href="https://github.com/itisar-345" 
             target="_blank" 
